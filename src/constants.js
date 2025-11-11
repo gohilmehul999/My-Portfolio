@@ -33,15 +33,8 @@ import bsaLogo from './assets/education_logo/bsa_logo.png';
 import krishnavidhyalayaLogo from './assets/education_logo/krishnavidhyalaya.jpeg';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import githubPortfolioLogo from './assets/work_logo/github_portfolio.png';
+// import githubdetLogo from './assets/work_logo/github_det.png';
 
 
 export const SkillsInfo = [
@@ -177,12 +170,12 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "Portfolio Website",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+        "A personal portfolio website showcasing my projects, skills, and experience as a web developer. Built with modern technologies to highlight my work, creativity, and professional journey in an interactive and responsive design.",
+      image: githubPortfolioLogo,
+      tags: ["React JS", "Tailwind Css"],
+      github: "https://github.com/gohilmehul999/My-Portfolio",
+      webapp: "https://mehulgohil.vercel.app/",
     },
   ];  
