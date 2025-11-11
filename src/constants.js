@@ -34,7 +34,7 @@ import krishnavidhyalayaLogo from './assets/education_logo/krishnavidhyalaya.jpe
 
 // Project Section Logo's
 import githubPortfolioLogo from './assets/work_logo/github_portfolio.png';
-// import githubdetLogo from './assets/work_logo/github_det.png';
+import githubProfileViewLogo from './assets/work_logo/githubProfileView.png';
 
 
 export const SkillsInfo = [
@@ -177,5 +177,15 @@ export const SkillsInfo = [
       tags: ["React JS", "Tailwind Css"],
       github: "https://github.com/gohilmehul999/My-Portfolio",
       webapp: "https://mehulgohil.vercel.app/",
+    },
+    {
+      id: 1,
+      title: "Github Profile Viewer",
+      description:
+        "The GitHub Profile Viewer is a modern React web application that allows users to search and view detailed information about any GitHub user profile using the GitHub API. Built with React, Tailwind CSS, and Axios, the app provides a clean, responsive, and visually appealing interface to explore GitHub profiles, repositories, and followers in real time.",
+      image: githubProfileViewLogo,
+      tags: ["React JS", "Tailwind Css"],
+      github: "https://github.com/gohilmehul999/github-profile-viewer/tree/main",
+      webapp: "https://githubprofileviewer-two.vercel.app/",
     },
   ];  
